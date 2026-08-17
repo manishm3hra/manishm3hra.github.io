@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RooTree - Speed Math & Reasoning Trainer App</title>
+    <title>Amjack Apps - Professional Exam Prep & Productivity Tools</title>
     
-    <!-- High Density SEO Meta Tags using your exact copy -->
-    <meta name="description" content="Solve math 10x faster. RooTree is the ultimate mental math & reasoning trainer app for competitive exam prep including SSC CGL, Banking, Railway, and IBPS.">
-    <meta name="keywords" content="RooTree app, speed math trainer, mental math tricks, ssc reasoning app, banking quant preparation, multiplication table quiz, alphabet positioning test">
+    <!-- High Density SEO Meta Tags -->
+    <meta name="description" content="Master your skills with Amjack Apps. Professional Typing Speed Tests, Hindi Remington GAIL courses, and Mental Math trainers for SSC, Banking, and Railway exams.">
+    <meta name="keywords" content="WPM Touch Typing, Typing Speed Test, Remington GAIL Hindi, RooTree app, speed math trainer, mental math tricks, ssc reasoning app, data deletion request">
     
     <style>
         :root {
             --primary: #1a73e8;
+            --secondary: #FFEB3B;
             --dark: #202124;
             --text: #3c4043;
             --bg-light: #f8f9fa;
+            --danger: #d93025;
         }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; 
@@ -26,26 +28,36 @@
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
         header { text-align: center; padding: 60px 20px; background: var(--bg-light); border-bottom: 1px solid #dadce0; }
         h1 { color: var(--primary); margin: 0 0 10px 0; font-size: 2.6rem; }
+        h2 { border-bottom: 2px solid var(--primary); display: inline-block; padding-bottom: 5px; }
         .tagline { font-size: 1.3rem; color: #5f6368; margin: 0 0 25px 0; font-weight: 500; }
+        
+        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px; }
+        .app-card { background: #fff; padding: 25px; border-radius: 12px; border: 1px solid #dadce0; transition: transform 0.2s; }
+        .app-card:hover { transform: translateY(-5px); box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .app-card h3 { color: var(--primary); margin-top: 0; }
+        
         .cta-btn { 
             display: inline-block; 
             background: var(--dark); 
             color: #fff; 
-            padding: 14px 32px; 
+            padding: 10px 20px; 
             text-decoration: none; 
             border-radius: 6px; 
             font-weight: bold; 
-            font-size: 1.1rem;
-            transition: background 0.2s;
+            font-size: 0.9rem;
+            margin-top: 15px;
         }
         .cta-btn:hover { background: var(--primary); }
-        .features { padding: 50px 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px; }
-        .card { background: #fff; padding: 25px; border-radius: 8px; border: 1px solid #dadce0; }
-        .card h3 { color: var(--primary); margin-top: 0; }
-        .target-audience { background: var(--bg-light); padding: 40px 20px; text-align: center; border-radius: 8px; }
-        .badge-list { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
-        .badge { background: #fff; padding: 8px 16px; border-radius: 20px; border: 1px solid #dadce0; font-weight: 500; }
+
+        .deletion-section { 
+            margin-top: 50px; 
+            padding: 40px 20px; 
+            background: #fff5f5; 
+            border: 1px solid #ffc1c1; 
+            border-radius: 12px; 
+        }
+        .deletion-section h2 { color: var(--danger); border-color: var(--danger); }
+        
         footer { text-align: center; padding: 40px 20px; background: var(--dark); color: #f1f3f4; font-size: 0.9rem; }
         footer a { color: #8ab4f8; text-decoration: none; }
         @media (max-width: 600px) { h1 { font-size: 2rem; } .tagline { font-size: 1.1rem; } }
@@ -54,56 +66,51 @@
 <body>
 
     <header>
-        <h1>RooTree Speed Math & Reasoning</h1>
-        <p class="tagline">Solve math 10x faster. The ultimate mental math trainer for competitive prep.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.amjack.rootree" class="cta-btn" target="_blank" rel="noopener">Download on Google Play</a>
+        <h1>Amjack Professional Apps</h1>
+        <p class="tagline">Empowering aspirants with high-precision educational tools.</p>
     </header>
 
     <main class="container">
-        <section class="features">
-            <h2>Why Choose RooTree?</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>⚡ Unlimited Multiplication Mastery</h3>
-                    <p>Don't stop at 20! Practice multiplication tables with custom ranges (e.g., 13 to 199) using our unique 3-way quiz system.</p>
+        <section>
+            <h2>Our Top Rated Apps</h2>
+            <div class="app-grid">
+                <!-- WPM Touch Typing Card -->
+                <div class="app-card">
+                    <h3>⌨️ WPM Touch Typing</h3>
+                    <p>Advanced typing speed tests with official SSC/RRB logic. Features AI OCR scanning, Remington GAIL Hindi courses, and professional steno tools.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.amjack.wpmtouchtypingcourseandtypingspeedtest" class="cta-btn">View on Play Store</a>
                 </div>
-                <div class="card">
-                    <h3>🔄 Reasoning Speed Booster</h3>
-                    <p>Learn Alphabet positions (Straight & Reverse) to crack Coding-Decoding and Alpha-Series questions faster than ever.</p>
-                </div>
-                <div class="card">
-                    <h3>🔢 Square & Cube Power</h3>
-                    <p>Instantly recall Squares, Cubes, Square Roots, and Cube Roots. Essential for Sequence and Series reasoning questions.</p>
-                </div>
-                <div class="card">
-                    <h3>📈 Percentage & Fraction Hacks</h3>
-                    <p>Learn and practice critical percentage-fraction conversions (like 12.5% = 1/8) to solve Profit & Loss questions in seconds.</p>
-                </div>
-                <div class="card">
-                    <h3>📐 Trigonometry & Geometry Basics</h3>
-                    <p>Master Trigonometric Ratios (Sin, Cos, Tan) and Pythagorean Triples (3, 4, 5) for quick Geometry solving.</p>
-                </div>
-                <div class="card">
-                    <h3>⏱️ Dynamic Range Selection</h3>
-                    <p>Set your own difficulty! Practice from 1 to 10 or 99 to 9999 in a completely offline, lightweight environment.</p>
+
+                <!-- RooTree Card -->
+                <div class="app-card">
+                    <h3>🌳 RooTree Speed Math</h3>
+                    <p>Solve math 10x faster. Master mental math, reasoning, and calculation tricks for Banking and UPSC exams.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.amjack.rootree" class="cta-btn">View on Play Store</a>
                 </div>
             </div>
         </section>
 
-        <section class="target-audience">
-            <h2>Perfect For Aspirants Prepping For:</h2>
-            <div class="badge-list">
-                <span class="badge">SSC CGL / CHSL / MTS</span>
-                <span class="badge">Banking (IBPS, Bank PO, SBI)</span>
-                <span class="badge">Railways (NTPC, Group D)</span>
-                <span class="badge">UPSC CSAT</span>
-            </div>
+        <!-- DATA DELETION SECTION - Mandatory for Google Play -->
+        <section class="deletion-section" id="data-deletion">
+            <h2>Account & Data Deletion</h2>
+            <p>At Amjack Apps, we value your privacy. In compliance with Google Play's Data Safety policies, we provide a simple way for users to delete their accounts and all associated cloud-stored data.</p>
+            
+            <p><strong>What data will be deleted?</strong><br>
+            Requesting deletion will permanently erase your unique User ID, email address, cloud-synced test credits, and any saved subscription status from our servers.</p>
+            
+            <p><strong>How to request deletion:</strong></p>
+            <ol>
+                <li><strong>In-App:</strong> Open the app, go to <b>Settings</b>, and click <b>"Delete My Account & Cloud Data"</b> at the bottom.</li>
+                <li><strong>Via Web:</strong> If you have already uninstalled the app, click the button below to send a deletion request via email. Please use the email address associated with your Google account.</li>
+            </ol>
+            
+            <a href="mailto:amjackplay@gmail.com?subject=Account Deletion Request&body=I would like to request the deletion of my account and data for the following app: " class="cta-btn" style="background: var(--danger);">Request Data Deletion</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 RooTree App. Calculate at the speed of thought.</p>
-        <p><a href="privacy.html">Privacy Policy</a> | <a href="mailto:amjackplay@gmail.com">Support</a></p>
+        <p>&copy; 2026 Amjack Apps. Built for the speed of thought.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="mailto:amjackplay@gmail.com">Contact Support</a></p>
     </footer>
 
 </body>
